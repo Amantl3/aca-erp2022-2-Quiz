@@ -1,0 +1,66 @@
+/* === APP CONTAINER === */
+.App {
+  text-align: center;
+  padding: 2rem;
+  background-color: #4580d8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === TITLE === */
+.App-title {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #222;
+  margin-bottom: 1.5rem;
+  text-transform: none;
+}
+
+/* === OPTIONAL LOGO === */
+.App-logo {
+  height: 120px;
+  margin-bottom: 1.5rem;
+}
+
+/* === HEADER BOX === */
+.App-header {
+  background-color: #d53838;
+  border-radius: 12px;
+  padding: 2rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+/* === BUTTON/LINK === */
+.App-link {
+  color: #0077cc;
+  background-color: #ab4141;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  border: 2px solid #0077cc;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.App-link:hover {
+  background-color: #0077cc;
+  color: #c52525;
+  box-shadow: 0 4px 12px rgba(0, 119, 204, 0.25);
+}
+
+/* === LOGO SPIN REMOVED FOR CLEANER UI === */
+
+
